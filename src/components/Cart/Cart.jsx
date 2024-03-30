@@ -26,7 +26,7 @@ const Cart = ({ cart, handleClearCart, children }) => {
 
     const grandTotal = totalPrice + totalShipping + tax;
 
-    return (
+    return (       
         <div className='cart'>
             <h4>Order Summary</h4>
             <p>Selected Items: {quantity}</p>
